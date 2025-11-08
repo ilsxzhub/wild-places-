@@ -6,8 +6,8 @@ const lamp = document.getElementById("lamp");
 const combine = document.getElementById("combine");
 
 // Load sounds
-const lampSound = new Audio("sounds/lamp.mp3");
-const combineSound = new Audio("sounds/combine.mp3");
+const lampSound = new Audio("ding-402325.mp3");
+const combineSound = new Audio("bloop-2-186531.mp3");
 
 // --- Title Screen Logic ---
 playButton.addEventListener("click", () => {
