@@ -1,0 +1,77 @@
+body {
+  background: linear-gradient(#b6e0ff, #d8f5e2);
+  font-family: "Comic Sans MS", sans-serif;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* --- Title Screen --- */
+#title-screen {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#79d4a8, #b7eaff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title-screen h1 {
+  font-size: 60px;
+  color: #23633d;
+  text-shadow: 3px 3px #fff;
+  margin-bottom: 30px;
+}
+
+#play-button {
+  background: #58b57e;
+  color: white;
+  font-size: 24px;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 4px #3d7d57;
+  transition: transform 0.1s ease;
+}
+
+#play-button:hover {
+  transform: scale(1.05);
+}
+
+/* --- Island --- */
+#island {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+#island h2 {
+  margin-top: 20px;
+  color: #2a5c3a;
+}
+
+#island img {
+  position: absolute;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+#island img:hover {
+  transform: scale(1.05);
+}
+
+/* Positions */
+#lamp {
+  left: 40%;
+  top: 50%;
+  width: 150px;
+}
+
+#combine {
+  left: 60%;
+  top: 50%;
+  width: 150px;
+}
